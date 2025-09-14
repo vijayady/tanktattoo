@@ -1,0 +1,16 @@
+{
+  "name": "Tank Tattoo Bot",
+  "version": "1.0",
+  "authors": [
+    "Vijay Deena Jayanth",
+    "Adyanthaya Bhoopathy Sinha"
+  ],
+  "description": "A Test Bot for Robocode Challenge Sept.",
+  "homepage": "",
+  "countryCodes": [
+    "UK",
+    "IN"
+  ],
+  "platform": "JVM",
+  "programmingLang": "Java 11"
+}
