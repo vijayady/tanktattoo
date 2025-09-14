@@ -55,7 +55,27 @@ Make sure to test your bot thoroughly before submitting it.
 ## Start building the bot
 
 To start building the bot, you will need the API jar which you can find under the release section of this repo.
+## Runing the Bot 
+Now we got a JSON configuration file and the program for our bot. The next step is to provide the files for running the bot application. We need to set up scripts for starting the bot, and also supply the bot API library (jar file) that the bot on build on and hence depends on.
 
+### Supply bot API library
+You need to download the robocode-tankroyale-bot-api-x.y.z.jar library from latest release [https://github.com/robocode-dev/tank-royale/releases] repository and put this into a folder accessible for your bot. I recommend that you put this into a ../bots/lib folder (you create) in the root directory containing your MyFirstBot directory (../bots/MyFirstBot).
+
+In the following, we assume that you created this lib directory beside your bot directory, and copied the bot API jar file into the lib folder
+
+### Bot GUI
+create new folder eg "RoboCode" in your local desktop (outside the code base), 
+Donwload latest GUI and Server Robocode-tankroyale-gui-x.y.z.jar and Robocode-tankroyale-server-x.y.z.jar and place in the the RoboCode directory.
+Navigate to Execute the GUI jar (cmd line command : java -jar robocode-tankroyale-gui-x.y.z.jar ) 
+![alt text](image.png)
+
+### Confiugure / Add Bot directory 
+Click on Bot Root Directory and add the location of your bot and sample bot directory
+![alt text](image-1.png)
+
+![alt text](image-3.png)
+
+Now you are ready to start the battle locally, navigte to Battle directory and start battle. 
 ## Useful resources:
 
 - Bot tutorial: https://robocode-dev.github.io/tank-royale/tutorial/my-first-bot.html
